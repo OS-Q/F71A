@@ -1,6 +1,6 @@
-﻿# [RFID](https://github.com/qitas/RFID) 
+﻿# [play](https://github.com/qitas/play) 
 
-基于STM32F103ZE单片机的播放设备
+基于STM32F103ZE单片机的嵌入式设备
 
 ### qitas@qitas.cn
 
@@ -17,6 +17,6 @@
 
 ---
 
-## 为锻造最美之器
+## 锻造最美之器
 
 [![sites](qitas/qitas.png)](http://www.qitas.cn)
