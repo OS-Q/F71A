@@ -379,16 +379,6 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>Start</GroupName>
-          <Files>
-            <File>
-              <FileName>stm32f10x_vector.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>..\FWLib\Library\StartCode\stm32f10x_vector.s</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
           <GroupName>user</GroupName>
           <Files>
             <File>
@@ -397,9 +387,9 @@
               <FilePath>..\Source\main.c</FilePath>
             </File>
             <File>
-              <FileName>stm32f10x_conf.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Source\stm32f10x_conf.h</FilePath>
+              <FileName>sysfile.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Source\sysfile.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_it.c</FileName>
@@ -407,9 +397,9 @@
               <FilePath>..\Source\stm32f10x_it.c</FilePath>
             </File>
             <File>
-              <FileName>sysfile.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Source\sysfile.c</FilePath>
+              <FileName>stm32f10x_vector.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\FWLib\stm32f10x_vector.s</FilePath>
             </File>
           </Files>
         </Group>

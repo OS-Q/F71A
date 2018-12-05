@@ -1,10 +1,7 @@
 #include "sysfile.h"
 #include "fat.h"
 #include "jpegbmp.h"
-//Mini STM32开发板
-//系统文件查找代码					  
-//正点原子@ALIENTEK
-//2010/6/18
+
 				   
 u32 PICCLUSTER=0;//图片文件夹地址
 u32 MUSCLUSTER=0;//音乐文件夹地址

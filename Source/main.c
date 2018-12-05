@@ -32,7 +32,12 @@
 /* Private variables ---------------------------------------------------------*/
 /* Private function prototypes -----------------------------------------------*/
 /* Private functions ---------------------------------------------------------*/
-void Init_Periph(void);
+/*************外设初始化***************/
+void Init_Periph(void)
+{
+	SysTick_Config();
+	Init_USART1(115200);
+}	
 /*******************************************************************************
 * Function Name  : main
 * Description    : Main program.
@@ -222,11 +227,6 @@ void assert_failed(u8* file, u32 line)
 #endif
 
 
-/*************外设初始化***************/
-void Init_Periph(void)
-{
-	SysTick_Config();
-	Init_USART1(115200);
-}	
+
 
 /******************* (C) COPYRIGHT 2008 STMicroelectronics *****END OF FILE****/
