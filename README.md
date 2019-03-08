@@ -1,20 +1,18 @@
-﻿# [play](https://github.com/qitas/play) 
+﻿# [LitePAD](https://github.com/qitas/LitePAD) 
 
-### qitas@qitas.cn
+#### qitas@qitas.cn
 
+## [描述](https://github.com/qitas/LitePAD/wiki) 
 
-## 描述
-
-基于STM32F103ZE单片机的嵌入式设备
-
+LitePAD项目基于MCU实现，可以作为播放器使用
 
 ## [组成](qitas/)
 
-### [工程源码](project/)
+### [工程项目](LitePAD/)
 
 
 ---
 
-## 锻造最美之器
+### 锻造最美之器
 
 [![sites](qitas/qitas.png)](http://www.qitas.cn)
