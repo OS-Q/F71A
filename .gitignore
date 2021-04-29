@@ -1,0 +1,13 @@
+.pioenvs
+.piolibdeps
+*.db
+*.pyc
+__pycache__/
+*.vscode/
+*.pio/
+*.rst
+# *.md
+README*
+LICENSE*
+**/CONTR*
+**/CHANGE*
